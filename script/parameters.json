@@ -1,0 +1,13 @@
+{
+    "Duo_skey": "PUT YOUR Duo_Skey HERE",
+    "Duo_ikey": "PUT YOUR Duo_Skey HERE",
+    "Duo_API_hostname": "PUT YOUR Duo_API_host HERE",
+    "Record_return_time": "600",
+    "Duo_user_timeout": "43200",
+    "FMC_ipaddress": "PUT YOUR Cisco FMC IP HERE",
+    "FMC_host_vuln_db_overwrite_OR_update": "update",
+    "push_changes_to_fmc": true,
+    "FMC_user": "FMC USER - NEED TO HAVE API ROLE or ADMIN",
+    "FMC_password": "PUT YOUR FMC PASSWORD",
+    "Domain": "PUT YOUR DEFAULT AD DOMAIN"
+}
