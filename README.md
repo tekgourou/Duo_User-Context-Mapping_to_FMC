@@ -50,8 +50,8 @@ To generate the certificate, login to FMC Web GUI and navigate to System -> Inte
 ### Running this script
 Before running the following command ensure that all prerequisites are met and run it in the same directory where you have the script loaded.
 To run the tool simply execute: <br/>
-python3.6 DUO_to_FMC.py
-
-My suggestion is to run the script with crontab every 5 minutes.
+<br/>
+python3.6 DUO_to_FMC.py <br/>
+My suggestion is to run the script with crontab every 5 minutes. <br/>
 
 All the activities of thes cript are logged to a file called AUDIT.logfile.Thefile is not over-written,only appended. This includesall INFO and ERROR messages. Only SHOWSTOPPER errors,if any, are also displayed on the screen.
