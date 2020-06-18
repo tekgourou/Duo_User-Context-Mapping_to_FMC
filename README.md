@@ -38,6 +38,10 @@ duo_client (https://pypi.org/project/duo-client/)<br/>
 requests <br/>
 tinydb <br/>
 
+### Duo Admin API key
+You will need to get your Duo Admin API key from the Duo Admin Portal.
+https://duo.com/docs/adminapi
+
 ### FMC Host Input API client certificate
 File (xxxxxx.pkcs12) generated from FMC, downloaded in this script's local directory.
 To generate the certificate, login to FMC Web GUI and navigate to System -> Integrations -> Host Input Client-> CreateClient->give the IP address of your HOST and DO NOT GIVE a password-> Save. Download the pkcs12file in this script's local directory.
