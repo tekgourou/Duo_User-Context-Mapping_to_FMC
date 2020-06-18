@@ -20,23 +20,23 @@ Add a new user
 
 ### This script is based on the AMP4e-to-FMC-Host-Input-Script available on cisco.com
 ### Perl script for Host Input (FMC) communications
-Note: These files are of 'FMC Host Input API SDK'as-it-is downloaded from CCO without any modifications.
-sf_host_input_agent.pl
-SFCheckPreReq.pm
-SFHIclient.pm
-SFHIlog.pm
-SFHostInputAgent.pm
-SFPkcs12.pm
-InputPlugins\csv.pm
+Note: These files are of 'FMC Host Input API SDK'as-it-is downloaded from CCO without any modifications. <br/>
+sf_host_input_agent.pl <br/>
+SFCheckPreReq.pm <br/>
+SFHIclient.pm <br/>
+SFHIlog.pm <br/>
+SFHostInputAgent.pm <br/>
+SFPkcs12.pm <br/>
+InputPlugins\csv.pm <br/>
 
 ### Prerequisites
 This tool uses python to establish communications with Duo Admin API and pull the context informations for all athentifications. The REST VDI API is use to share Duo User/IP mapping to FMC.
 Then the tool uses perl to establish communications with FMC to host profile collected earlier to the Hostprofile in FMC.
 
 ### Python Modules
-duo_client (https://pypi.org/project/duo-client/)
-requests
-tinydb
+duo_client (https://pypi.org/project/duo-client/)<br/>
+requests <br/>
+tinydb <br/>
 
 ### FMC Host Input API client certificate
 File (xxxxxx.pkcs12) generatedfrom FMC,downloaded in this script's local directory.
