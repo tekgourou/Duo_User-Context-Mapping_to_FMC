@@ -17,3 +17,14 @@ Add a new role.
 
 Add a new user
 ![image](./fmc_api_user.png)
+
+### This script is based on the AMP4e-to-FMC-Host-Input-Script available on cisco.com
+### Perl script for Host Input (FMC) communications
+Note: These files are of 'FMC Host Input API SDK'as-it-is downloaded from CCO without any modifications.
+ s f_hos t_input_agent.pl
+ SFCheckPreReq.pm
+ SFHIclient.pm
+ SFHIlog.pm
+ SFHos tI nputAgent.pm
+ SFPkcs12.pm
+ I nputPlugins\csv.pm
