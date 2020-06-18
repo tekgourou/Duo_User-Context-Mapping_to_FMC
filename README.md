@@ -31,7 +31,7 @@ InputPlugins\csv.pm <br/>
 
 ### Prerequisites
 This tool uses python to establish communications with Duo Admin API and pull the context informations for all athentifications. The REST VDI API is use to share Duo User/IP mapping to FMC.
-Then the tool uses perl to establish communications with FMC to host profile collected earlier to the Hostprofile in FMC.
+Then the tool uses perl to establish communications with FMC to add host profile collected earlier to the Hostprofile in FMC.
 
 ### Python Modules
 duo_client (https://pypi.org/project/duo-client/)<br/>
