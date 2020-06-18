@@ -7,15 +7,14 @@ This repo contains a Python & Perl scripts to grab User context information, IP 
 Please contact me at alexandre@argeris.net, if you have any questions or remarks. If you find any bugs, please report them to me, and I will correct them. 
   
 ### VARIABLES TO MODIFY BEFORE RUNNING THE SCRIPT 
-parameters.json need to be modify before running the script.
-
+parameters.json need to be modify before running the script. <br/>
 ![image](./parameters.png)
 
 ### How to create a FMC user with API role
-Add a new role.
+Add a new role. <br/>
 ![image](./fmc_api_role.png)
 
-Add a new user
+Add a new user <br/>
 ![image](./fmc_api_user.png)
 
 ### This script is based on the AMP4e-to-FMC-Host-Input-Script available on cisco.com
