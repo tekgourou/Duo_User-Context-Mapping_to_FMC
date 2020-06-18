@@ -10,5 +10,8 @@ parameters.json need to be modify before running the script.
 ![image](./parameters.png)
 
 ### How to create a FMC user with API role
+Add a new role.
 ![image](./fmc_api_role.png)
+
+Add a new user
 ![image](./fmc_api_user.png)
