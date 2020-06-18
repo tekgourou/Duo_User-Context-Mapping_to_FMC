@@ -58,9 +58,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Import variables to get configuration
-logger.info("###############################################################################")
-logger.info("###############################################################################")
-logger.info("Starting execution of the script")
+logger.info("## Starting execution of the script ########################################################################")
 config = ''
 try:
     config = json.loads(open("parameters.json").read())
@@ -100,12 +98,7 @@ var = {
 # Check to make sure there is data in the parameters
 for key in var.keys():
     value = var[key]
-    if value != "":
-        if key == 'Duo_skey':
-            logger.info("Parameters {} is {}".format(key, '*******************'))
-        else:
-            logger.info("Parameters {} is {}".format(key, value))
-    else:
+    if value == "":
         logger.error("Missing Value for the Parameter {}.... So exiting!".format(key, value))
         print("Missing Value for the Parameter {}.... So exiting!".format(key, value))
         sys.exit()
