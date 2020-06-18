@@ -1,6 +1,8 @@
 ### Sharing Duo User Context (IP & HostProfile) to FMC
   
 This repo contains a Python script to grab User context information, IP & Host profile, from a Duo Security authentification and share this with Cisco FMC.
+
+![image](./fmc_host_profile.png)
   
 Please contact me at alexandre@argeris.net, if you have any questions or remarks. If you find any bugs, please report them to me, and I will correct them. 
   
