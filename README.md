@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/tekgourou/Duo_User-Context-Mapping_to_FMC)
+
 ### Sharing Duo User Context (IP & HostProfile) to Cisco Firepower Management Center
   
 This repo contains a Python & Perl scripts to grab User context information, IP & Host profile, from a Duo Security authentification and share this with Cisco FMC.
