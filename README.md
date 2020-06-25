@@ -24,7 +24,8 @@ Add a new user <br/>
 
 ### Perl script for Host Input (FMC) communications
 This script is based on the AMP4e-to-FMC-Host-Input-Script available on cisco.com <br/>
-Note: These files are of 'FMC Host Input API SDK'as-it-is downloaded from CCO without any modifications. <br/>
+https://software.cisco.com/download/home/286259687/type/286271057/release/Host%20InputNote <br/>
+These files are of 'FMC Host Input API SDK'as-it-is downloaded from CCO without any modifications. <br/>
 sf_host_input_agent.pl <br/>
 SFCheckPreReq.pm <br/>
 SFHIclient.pm <br/>
