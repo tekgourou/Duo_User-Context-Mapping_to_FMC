@@ -68,6 +68,6 @@ python3.6 Duo_to_FMC.py <br/>
 <br/>
 My suggestion is to run the script with crontab (linux) or Task Scheduler (Microsoft) every 5 minutes. <br/>
 
-All the activities of thes cript are logged to a file called AUDIT.log file. The file is not over-written, only appended. This includes all INFO and ERROR messages.
+All the activities of the script are logged to a file called AUDIT.log file. The file is not over-written, only appended. This includes all INFO and ERROR messages.
 
 ![image](./AUDIT_log.png)
