@@ -51,6 +51,12 @@ https://duo.com/docs/adminapi
 File (xxxxxx.pkcs12) generated from FMC, downloaded in this script's local directory.
 To generate the certificate, login to FMC Web GUI and navigate to System -> Integrations -> Host Input Client-> CreateClient->give the IP address of your HOST and DO NOT GIVE a password-> Save. Download the pkcs12file in this script's local directory.
 
+### CLONING THE REPO 
+git clone https://github.com/tekgourou/Duo_User-Context-Mapping_to_FMC.git
+cd Duo_User-Context-Mapping_to_FMC/scripts
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt 
 
 ### Running this script
 Before running the following command ensure that all prerequisites are met and run it in the same directory where you have the script loaded.
