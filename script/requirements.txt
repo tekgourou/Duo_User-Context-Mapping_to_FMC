@@ -1,0 +1,8 @@
+certifi==2020.4.5.2
+chardet==3.0.4
+duo-client==4.2.3
+idna==2.9
+requests==2.23.0
+six==1.15.0
+tinydb==4.1.1
+urllib3==1.25.9
