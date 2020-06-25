@@ -60,7 +60,7 @@ To generate the certificate, login to FMC Web GUI and navigate to System -> Inte
 
 
 ### Running this script
-Before running the following command ensure that all prerequisites are met and run it in the same directory where you have the script loaded.
+Before running the following command ensure that all prerequisites are met and run it in the script directory loaded.
 To run the tool simply execute: <br/>
 <br/>
 python3.6 Duo_to_FMC.py <br/>
