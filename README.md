@@ -40,7 +40,7 @@ git clone https://github.com/tekgourou/Duo_User-Context-Mapping_to_FMC.git <br/>
 cd Duo_User-Context-Mapping_to_FMC/scripts <br/>
 python3 -m venv venv <br/>
 source venv/bin/activate <br/>
-pip install -r requirements.txt <br/>
+pip3 install -r requirements.txt <br/>
 
 ### Prerequisites
 This tool use python to establish communications with Duo Admin API and pull the context informations for all athentifications. The REST VDI API is use to share Duo User/IP mapping to FMC. <br/>
